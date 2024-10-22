@@ -29,6 +29,12 @@ dependencies {
 	testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
 }
 
+tasks.jar{
+	manifest {
+		attributes["main-class"] ="com.pimentel.caio.restfulapi.Application"
+	}
+}
+
 tasks.named('test') {
 	useJUnitPlatform()
 }
