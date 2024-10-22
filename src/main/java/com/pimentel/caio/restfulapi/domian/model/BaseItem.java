@@ -1,4 +1,4 @@
-package com.pimentel.caio.Java.RESTful.API.domian.model;
+package com.pimentel.caio.restfulapi.domian.model;
 
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;

@@ -1,8 +1,8 @@
-package com.pimentel.caio.Java.RESTful.API.service.impl;
+package com.pimentel.caio.restfulapi.service.impl;
 
-import com.pimentel.caio.Java.RESTful.API.domian.model.User;
-import com.pimentel.caio.Java.RESTful.API.domian.repository.UserRepository;
-import com.pimentel.caio.Java.RESTful.API.service.UserService;
+import com.pimentel.caio.restfulapi.domian.model.User;
+import com.pimentel.caio.restfulapi.domian.repository.UserRepository;
+import com.pimentel.caio.restfulapi.service.UserService;
 import org.springframework.stereotype.Service;
 
 import java.util.NoSuchElementException;

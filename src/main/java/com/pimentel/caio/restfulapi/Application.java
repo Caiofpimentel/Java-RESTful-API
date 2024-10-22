@@ -1,13 +1,13 @@
-package com.pimentel.caio.Java.RESTful.API;
+package com.pimentel.caio.restfulapi;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class JavaResTfulApiApplication {
+public class Application {
 
 	public static void main(String[] args) {
-		SpringApplication.run(JavaResTfulApiApplication.class, args);
+		SpringApplication.run(Application.class, args);
 	}
 
 }

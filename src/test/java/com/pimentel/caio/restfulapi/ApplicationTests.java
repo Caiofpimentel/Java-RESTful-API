@@ -1,10 +1,10 @@
-package com.pimentel.caio.Java.RESTful.API;
+package com.pimentel.caio.restfulapi;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class JavaResTfulApiApplicationTests {
+class ApplicationTests {
 
 	@Test
 	void contextLoads() {
